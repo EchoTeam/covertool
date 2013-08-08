@@ -1,6 +1,3 @@
--record(config, {appname = "Application",
-                 prefix_len = 0,
+-record(config, {apps = "./",
                  cover_data = no_import,
-                 output = "coverage.xml",
-                 sources,
-                 beams}).
+                 output = "coverage.xml"}).
